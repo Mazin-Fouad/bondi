@@ -1,0 +1,19 @@
+@import "../../../styles.scss";
+
+nav {
+    font-family: "Roboto Regular";
+    background-color: $color-blue;
+
+    .nav-link {
+        color: $color-white;
+    }
+}
+
+i {
+    color: $light-green;
+    border-left: 2px solid $light-green;
+}
+
+.active-link {
+    color: $light-green !important;
+}

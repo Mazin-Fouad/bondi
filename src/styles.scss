@@ -24,4 +24,10 @@ $gold: #ffc429;
     background-color: $red;
     padding: 10px;
     color: $gold !important;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
 }

@@ -1,0 +1,15 @@
+@import "../../../styles.scss";
+
+section {
+    height: 100dvh;
+    background-color: $color-blue;
+    font-family: "Roboto Regular";
+
+    div {
+        height: calc(100% - 70px);
+
+        h1 {
+            letter-spacing: 3px;
+        }
+    }
+}
