@@ -3,7 +3,7 @@
 section {
     font-family: "Roboto Regular";
 
-    .container {
+    .title {
         position: relative;
 
         &::after {
@@ -16,6 +16,31 @@ section {
             left: 50%;
             right: 50%;
             transform: translate(-50%, -50%);
+        }
+    }
+
+    .feature {
+        .icons-wrapper {
+            height: 200px;
+        }
+
+        i {
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .number-icon {
+            font-size: 12rem;
+            color: $ligt-grey;
+        }
+
+        .pencil-icon {
+            color: $light-green;
+        }
+
+        h4 {
+            color: $gold;
+            font-weight: bold;
         }
     }
 }
