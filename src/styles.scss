@@ -32,3 +32,19 @@ a {
     text-decoration: none;
     cursor: pointer;
 }
+
+.title {
+    position: relative;
+
+    &::after {
+        content: "";
+        width: 150px;
+        height: 2px;
+        background-color: $light-green;
+        position: absolute;
+        bottom: -10px;
+        left: 50%;
+        right: 50%;
+        transform: translate(-50%, -50%);
+    }
+}

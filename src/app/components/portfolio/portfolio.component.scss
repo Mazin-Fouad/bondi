@@ -1,0 +1,42 @@
+@import "../../../styles.scss";
+section {
+    font-family: "Roboto Regular";
+
+    ul {
+        li {
+            cursor: pointer;
+            &:hover {
+                color: $red;
+            }
+        }
+    }
+
+    .image-container {
+        position: relative;
+        width: 100%;
+
+        img {
+            display: block;
+            width: 100%;
+            height: auto;
+            border: solid 8px $ligt-grey;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 8px; // Start from the left edge
+            width: 0; // Initially, width is 0
+            height: calc(100% - 8px);
+            background-color: rgba(0, 0, 0, 0.5); // Adjust color and opacity
+            transition: width 0.5s ease; // Animate the width
+            overflow: hidden; // Prevent any content overflow during animation
+        }
+
+        &:hover {
+            .overlay {
+                width: calc(100% - 16px); // On hover, expand the width to cover the whole image
+            }
+        }
+    }
+}
