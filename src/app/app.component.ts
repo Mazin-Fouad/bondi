@@ -5,6 +5,7 @@ import { RouterOutlet } from '@angular/router';
 import { MainComponent } from './components/main/main.component';
 import { LandingSectionComponent } from './components/landing-section/landing-section.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { AboutUsComponent } from './components/about-us/about-us.component';
 
 @Component({
   selector: 'app-root',
@@ -15,6 +16,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     LandingSectionComponent,
     MainComponent,
     NavbarComponent,
+    AboutUsComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
