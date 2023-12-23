@@ -8,6 +8,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { AboutUsComponent } from './components/about-us/about-us.component';
 import { TeamComponent } from './components/team/team.component';
 import { PartnersComponent } from './components/partners/partners.component';
+import { BlogComponent } from './components/blog/blog.component';
 
 @Component({
   selector: 'app-root',
@@ -21,6 +22,7 @@ import { PartnersComponent } from './components/partners/partners.component';
     AboutUsComponent,
     TeamComponent,
     PartnersComponent,
+    BlogComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
