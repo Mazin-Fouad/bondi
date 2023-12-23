@@ -6,6 +6,7 @@ import { MainComponent } from './components/main/main.component';
 import { LandingSectionComponent } from './components/landing-section/landing-section.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { AboutUsComponent } from './components/about-us/about-us.component';
+import { TeamComponent } from './components/team/team.component';
 
 @Component({
   selector: 'app-root',
@@ -17,6 +18,7 @@ import { AboutUsComponent } from './components/about-us/about-us.component';
     MainComponent,
     NavbarComponent,
     AboutUsComponent,
+    TeamComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',

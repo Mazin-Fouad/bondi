@@ -1,0 +1,18 @@
+@import "../../../styles.scss";
+
+section {
+    font-family: "Roboto Regular";
+    background-color: $ligt-grey;
+
+    .text-holder {
+        h1 {
+            color: $gold;
+        }
+    }
+
+    .cards-holder {
+        h2 {
+            background-color: $light-green;
+        }
+    }
+}
