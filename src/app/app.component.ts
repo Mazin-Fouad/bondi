@@ -9,6 +9,8 @@ import { AboutUsComponent } from './components/about-us/about-us.component';
 import { TeamComponent } from './components/team/team.component';
 import { PartnersComponent } from './components/partners/partners.component';
 import { BlogComponent } from './components/blog/blog.component';
+import { NewsletterSubscribeComponent } from './components/newsletter-subscribe/newsletter-subscribe.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @Component({
   selector: 'app-root',
@@ -23,6 +25,8 @@ import { BlogComponent } from './components/blog/blog.component';
     TeamComponent,
     PartnersComponent,
     BlogComponent,
+    NewsletterSubscribeComponent,
+    FooterComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',

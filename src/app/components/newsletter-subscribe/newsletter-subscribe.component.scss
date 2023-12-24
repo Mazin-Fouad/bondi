@@ -1,0 +1,25 @@
+@import "../../../styles.scss";
+
+section {
+    font-family: "Roboto Regular";
+    background-color: $gold;
+
+    .newsletter {
+        input {
+            background-color: transparent;
+            border: unset;
+            border-bottom: 2px solid $color-white;
+
+            &:focus {
+                box-shadow: unset;
+                color: $color-white;
+                font-weight: bold;
+            }
+
+            &::placeholder {
+                color: $color-white;
+                font-weight: bold;
+            }
+        }
+    }
+}
